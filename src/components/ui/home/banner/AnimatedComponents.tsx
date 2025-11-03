@@ -5,7 +5,7 @@ import { Button } from "antd";
 
 const AnimatedPhotos = () => {
   return (
-    <div className="relative z-10 flex justify-center mb-10 pt-6  2xl:pt-0">
+    <div className="relative z-10 flex justify-center mb-8 lg:mb-10 pt-6  2xl:pt-0">
       <div className="relative w-60 sm:w-[300px] h-[90px]">
         <div
           data-aos="fade-right"
@@ -15,7 +15,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[0].src}
             alt={PHOTO_CARDS[0].alt}
             fill
-            className="object-cover h-full w-full"
+            className="object-cover"
             priority
           />
         </div>
@@ -27,7 +27,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[1].src}
             alt={PHOTO_CARDS[1].alt}
             fill
-            className="object-cover h-full w-full"
+            className="object-cover"
           />
         </div>
         <div
@@ -38,7 +38,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[2].src}
             alt={PHOTO_CARDS[2].alt}
             fill
-            className="object-cover h-full w-full"
+            className="object-cover"
           />
         </div>
       </div>

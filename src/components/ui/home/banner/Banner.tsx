@@ -16,9 +16,9 @@ export default function Banner({ translateData }: any) {
       <AnimatedPhotos />
 
       {/* Heading */}
-      <div className="relative z-10 max-w-4xl mx-auto mb-6">
+      <div className="relative z-10 max-w-4xl mx-auto mb-4 lg:mb-6">
         <h1
-          className="text-4xl 2xl:text-6xl font-bold text-white leading-tight lg:max-w-2xl 2xl:max-w-max "
+          className="text-[28px] lg:text-4xl 2xl:text-6xl font-bold text-white leading-tight lg:max-w-2xl 2xl:max-w-max "
           dangerouslySetInnerHTML={{
             __html: translateData.heading.replace(
               /<highlight>(.*?)<\/highlight>/g,
@@ -29,9 +29,9 @@ export default function Banner({ translateData }: any) {
       </div>
 
       {/* Description */}
-      <div className="relative z-10 max-w-2xl mx-auto mb-10 space-y-3 text-slate-300">
+      <div className="relative z-10 max-w-2xl mx-auto mb-8 lg:mb-10 space-y-3 text-slate-300">
         <p
-          className="text-base  2xl:text-lg"
+          className="text-sm lg:text-base  2xl:text-lg"
           dangerouslySetInnerHTML={{
             __html: translateData.description1.replace(
               /<highlight>(.*?)<\/highlight>/g,
