@@ -5,7 +5,7 @@ import { Button } from "antd";
 
 const AnimatedPhotos = () => {
   return (
-    <div className="relative z-10 flex justify-center mb-8 lg:mb-10 pt-6  2xl:pt-0">
+    <div className="relative z-10 flex justify-center mb-8 lg:mb-10 pt-4 lg:pt-6  2xl:pt-0">
       <div className="relative w-60 sm:w-[300px] h-[90px]">
         <div
           data-aos="fade-right"
