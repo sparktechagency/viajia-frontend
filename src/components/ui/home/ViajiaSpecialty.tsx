@@ -57,7 +57,7 @@ export async function ViajiaSpecialty() {
         {/* Right - Phone Mockups */}
         <div className=" h-96 md:h-full flex items-center  justify-end">
           <Image
-            src={"/assets/home/special-img.png"}
+            src={"/assets/home/speciality.png"}
             alt="phone"
             width={1500}
             height={1500}

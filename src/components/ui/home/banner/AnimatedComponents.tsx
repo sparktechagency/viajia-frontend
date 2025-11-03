@@ -5,7 +5,7 @@ import { Button } from "antd";
 
 const AnimatedPhotos = () => {
   return (
-    <div className="relative z-10 flex justify-center mb-10 pt-6 lg:pt-0">
+    <div className="relative z-10 flex justify-center mb-10 pt-6  2xl:pt-0">
       <div className="relative w-60 sm:w-[300px] h-[90px]">
         <div
           data-aos="fade-right"
@@ -15,7 +15,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[0].src}
             alt={PHOTO_CARDS[0].alt}
             fill
-            className="object-cover"
+            className="object-cover h-full w-full"
             priority
           />
         </div>
@@ -27,7 +27,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[1].src}
             alt={PHOTO_CARDS[1].alt}
             fill
-            className="object-cover"
+            className="object-cover h-full w-full"
           />
         </div>
         <div
@@ -38,7 +38,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[2].src}
             alt={PHOTO_CARDS[2].alt}
             fill
-            className="object-cover"
+            className="object-cover h-full w-full"
           />
         </div>
       </div>
@@ -52,7 +52,7 @@ const CTAButtons = ({ translateData }: any) => {
     <>
       <div className="relative z-10 flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center w-full">
         <Button
-        style={{ boxShadow: "0 6px 20px rgba(255, 203, 32, 0.5)" }}
+          style={{ boxShadow: "0 6px 20px rgba(255, 203, 32, 0.5)" }}
           data-aos="fade-up"
           size="large"
           className="bg-[#FFCB20]! hover:bg-yellow-500! border-none! text-slate-900! font-semibold!  h-12! rounded-xl w-full! md:w-[220px]!"

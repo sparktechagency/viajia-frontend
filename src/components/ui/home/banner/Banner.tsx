@@ -18,7 +18,7 @@ export default function Banner({ translateData }: any) {
       {/* Heading */}
       <div className="relative z-10 max-w-4xl mx-auto mb-6">
         <h1
-          className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight"
+          className="text-4xl 2xl:text-6xl font-bold text-white leading-tight lg:max-w-2xl 2xl:max-w-max "
           dangerouslySetInnerHTML={{
             __html: translateData.heading.replace(
               /<highlight>(.*?)<\/highlight>/g,
@@ -31,7 +31,7 @@ export default function Banner({ translateData }: any) {
       {/* Description */}
       <div className="relative z-10 max-w-2xl mx-auto mb-10 space-y-3 text-slate-300">
         <p
-          className="text-base sm:text-lg"
+          className="text-base  2xl:text-lg"
           dangerouslySetInnerHTML={{
             __html: translateData.description1.replace(
               /<highlight>(.*?)<\/highlight>/g,
