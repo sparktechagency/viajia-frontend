@@ -5,7 +5,7 @@ export default function Banner({ translateData }: any) {
   return (
     <section
       id="banner"
-      className="relative min-h-[calc(100vh-24px)] bg-linear-to-b from-[#00BCD11F] via-[#00BCD100] to-[#0a0b0d] overflow-hidden flex flex-col items-center justify-center text-center px-4 py-20 mx-2 lg:mx-6 rounded-t-3xl mt-6 "
+      className="relative min-h-[calc(100vh-24px)] bg-linear-to-b from-[#00BCD11F] via-[#00BCD100] to-[#0a0b0d] overflow-hidden flex flex-col items-center justify-center text-center px-4 py-12 lg:py-20 mx-2 lg:mx-6 rounded-t-3xl mt-6 "
     >
       {/* Background Accent */}
       <div className="absolute inset-0 opacity-30">
