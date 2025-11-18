@@ -30,7 +30,7 @@ export default async function HoursSupport() {
             <div>
               <p className="text-[#ABABAB]  mb-1">{t.satLabel}</p>
               <p className="text-primary flex items-center gap-2 text-sm">
-                +34 934 406 785
+                +34 640753793
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default async function HoursSupport() {
             <div>
               <p className="text-[#ABABAB]  mb-1">{t.emailLabel}</p>
               <p className="text-primary flex items-center gap-2 text-sm">
-                support@viajialockers.com
+                contacto@viajia.es
               </p>
             </div>
           </div>

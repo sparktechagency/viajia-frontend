@@ -44,7 +44,7 @@ export default function Navbar({ t }: any) {
         setShowNavbar(true);
       }
 
-      lastScrollTop.current = scrollY <= 0 ? 0 : scrollY; 
+      lastScrollTop.current = scrollY <= 0 ? 0 : scrollY;
     };
 
     globalThis.addEventListener("scroll", handleScroll);
@@ -91,7 +91,7 @@ export default function Navbar({ t }: any) {
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href={'/'} className="shrink-0 -mt-2">
+          <Link href={"/"} className="shrink-0 -mt-2">
             <Image
               src="/Logo.png"
               alt="VIAJIA Logo"
@@ -107,7 +107,7 @@ export default function Navbar({ t }: any) {
               <Link
                 key={index}
                 href={item.href}
-                className={`text-sm transition-all duration-300 ${
+                className={`text-sm lg:text-xs 2xl:text-sm transition-all duration-300 ${
                   item.href === pathname
                     ? "relative font-semibold px-8 py-2 rounded-full text-white bg-[#00BCD1]/20 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
                     : "text-slate-300 hover:text-cyan-400"

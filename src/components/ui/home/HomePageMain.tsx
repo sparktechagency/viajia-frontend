@@ -13,7 +13,6 @@ export default async function HomePageMain() {
   const faqTitle: any = await getTranslate("faqTitle");
   const location: any = await getTranslate("hoursSupport");
   const locationHeading: any = await getTranslate("locationSection");
-  console.log(location);
 
   const items = faqData.map((item: any, index: number) => ({
     key: String(index + 1),
