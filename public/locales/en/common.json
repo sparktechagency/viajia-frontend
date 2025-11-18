@@ -106,43 +106,46 @@
     "button": "Book Now"
   },
   "whatIsViajia": {
-  "title": "What is Viajia Lockers?",
-  "description": "Viajia Lockers is an intelligent and secure luggage storage service that allows travelers to enjoy Oviedo without carrying weight. The lockers are located in La CBID Boutique, monitored, and available during their opening hours."
-},
-"pricing": {
-  "title": "Sizes and Prices",
-  "day": "/day",
-  "items": [
-    {
-      "title": "Small (S)",
-      "description": "For carry-on suitcases"
-    },
-    {
-      "title": "Large (L)",
-      "description": "For medium suitcases"
-    },
-    {
-      "title": "Extra Large (XL)",
-      "description": "For large suitcases or multiple bags"
-    }
-  ]
-},
-"hoursSupport": {
-  "hoursTitle": "Hours",
-  "supportTitle": "Technical Support",
-  "satLabel": "Technical support (SAT):",
-  "emailLabel": "Email Us:",
-  "supportHoursLabel": "Hours:",
-  "supportHoursValue": "08:00-20:00 (every day)",
+    "title": "What is Viajia Lockers?",
+    "description": "Viajia Lockers is an intelligent and secure luggage storage service that allows travelers to enjoy Oviedo without carrying weight. The lockers are located in La CBID Boutique, monitored, and available during their opening hours."
+  },
+  "pricing": {
+    "title": "Sizes and Prices",
+    "day": "/day",
+    "items": [
+      {
+        "title": "Small (S)",
+        "description": "For carry-on suitcases"
+      },
+      {
+        "title": "Large (L)",
+        "description": "For medium suitcases"
+      },
+      {
+        "title": "Extra Large (XL)",
+        "description": "For large suitcases or multiple bags"
+      }
+    ]
+  },
+  "hoursSupport": {
+    "hoursTitle": "Hours",
+    "supportTitle": "Technical Support",
+    "satLabel": "Technical support (SAT):",
+    "emailLabel": "Email Us:",
+    "supportHoursLabel": "Hours:",
+    "supportHoursValue": "08:00-20:00 (every day)",
 
-  "hoursListNote": "(According to La CBD Boutique)",
-  "mondayFriday": "Monday - Friday:",
-  "saturday": "Saturday:",
-  "sundayHolidays": "Sunday & Holidays:",
-  "closed": "Closed",
+    "hoursListNote": "(According to La CBD Boutique)",
+    "mondayFriday": "Monday - Friday:",
+    "saturday": "Saturday:",
+    "sundayHolidays": "Sunday & Holidays:",
+    "closed": "Closed",
 
-  "mfTime": "09:00-14:00 / 16:00-20:30",
-  "satTime": "11:00-14:00 / 16:00-20:30"
-}
-
+    "mfTime": "09:00-14:00 / 16:00-20:30",
+    "satTime": "11:00-14:00 / 16:00-20:30"
+  },
+  "locationSection": {
+    "title": "Location & Hours",
+    "address": "Find us at Calle Uria, 76, 33003 Oviedo"
+  }
 }

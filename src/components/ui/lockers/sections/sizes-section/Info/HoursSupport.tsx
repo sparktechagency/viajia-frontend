@@ -13,7 +13,7 @@ export default async function HoursSupport() {
         icon={<Clock className="w-5 h-5" />}
         delay={100}
       >
-        <HoursList />
+        <HoursList t={t} />
       </InfoCard>
 
       {/* Support */}
@@ -47,7 +47,7 @@ export default async function HoursSupport() {
           </div>
           <div className="flex items-center gap-3">
             <div className=" bg-[#F66E10]/30 p-3 rounded-full">
-              <Mail className="w-4 h-4 text-[#F66E10]" />
+              <Clock className="w-4 h-4 text-[#F66E10]" />
             </div>
             <div>
               <p className="text-[#ABABAB]  mb-1">{t.supportHoursLabel}</p>

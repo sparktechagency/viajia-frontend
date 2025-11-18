@@ -142,5 +142,9 @@
 
     "mfTime": "09:00-14:00 / 16:00-20:30",
     "satTime": "11:00-14:00 / 16:00-20:30"
+  },
+  "locationSection": {
+    "title": "Ubicación y Horarios",
+    "address": "Nos encuentras en C. Uría, 76, 33003 Oviedo"
   }
 }

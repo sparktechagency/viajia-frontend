@@ -5,14 +5,23 @@ interface InfoCardProps {
   icon: ReactNode;
   children: ReactNode;
   delay?: number;
+  isHome?: boolean;
 }
 
-const InfoCard: FC<InfoCardProps> = ({ title, icon, children, delay = 0 }) => {
+const InfoCard: FC<InfoCardProps> = ({
+  title,
+  icon,
+  children,
+  delay = 0,
+  isHome = false,
+}) => {
   return (
     <div
       data-aos="fade-up"
       data-aos-delay={delay}
-      className="bg-[#1C1C1E]  border border-slate-800/50 rounded-lg p-8"
+      className={`bg-[#1C1C1E]  border border-slate-800/50 rounded-lg p-8 ${
+        isHome ? "h-fit" : "h-full"
+      } `}
     >
       <div className="flex items-center gap-3 mb-6">
         <div className="w-5 h-5 text-primary">{icon}</div>
