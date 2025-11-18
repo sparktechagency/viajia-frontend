@@ -41,24 +41,23 @@ export default async function LockerBanner() {
         >
           {translateData.description}
         </p>
-
-        <a
-          data-aos="fade-up"
-          data-aos-delay={250}
-          href={
-            lang === "es"
-              ? "https://viajialockers.drop-point.com/booking-engine?locker_ref=VIAJIALOCKERS1&locale=es"
-              : "https://viajialockers.drop-point.com/booking-engine?locker_ref=VIAJIALOCKERS1&locale=en"
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <PrimaryButton
-            text={translateData.button}
-            size="large"
-            className="lg:w-[200px] mt-10 font-medium!"
-          />
-        </a>
+        <div data-aos="fade-up" data-aos-delay={250}>
+          <a
+            href={
+              lang === "es"
+                ? "https://viajialockers.drop-point.com/booking-engine?locker_ref=VIAJIALOCKERS1&locale=es"
+                : "https://viajialockers.drop-point.com/booking-engine?locker_ref=VIAJIALOCKERS1&locale=en"
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <PrimaryButton
+              text={translateData.button}
+              size="large"
+              className="lg:w-[200px] mt-10 font-medium!"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
