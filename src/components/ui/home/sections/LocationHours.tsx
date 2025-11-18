@@ -57,7 +57,11 @@ export default function LocationHours({ t, locationHeading }: any) {
           >
             <HoursList t={t} isHome={true} />
           </InfoCard>
-          <div className="mt-6 flex flex-col md:flex-row lg:items-center gap-4 lg:gap-8">
+          <div
+            data-aos="fade-up"
+            data-aos-delay={150}
+            className="mt-6 flex flex-col md:flex-row lg:items-center gap-4 lg:gap-8"
+          >
             <div className="flex items-center gap-3 ">
               <div className=" bg-[#45EA69]/30 p-3 rounded-full">
                 <Phone className="w-4 h-4 text-[#45EA69]" />
