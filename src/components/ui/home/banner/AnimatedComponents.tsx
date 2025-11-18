@@ -15,6 +15,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[0].src}
             alt={PHOTO_CARDS[0].alt}
             fill
+            draggable={false}
             className="object-cover"
             priority
           />
@@ -27,6 +28,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[1].src}
             alt={PHOTO_CARDS[1].alt}
             fill
+            draggable={false}
             className="object-cover"
           />
         </div>
@@ -38,6 +40,7 @@ const AnimatedPhotos = () => {
             src={PHOTO_CARDS[2].src}
             alt={PHOTO_CARDS[2].alt}
             fill
+            draggable={false}
             className="object-cover"
           />
         </div>

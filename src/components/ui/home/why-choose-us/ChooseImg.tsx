@@ -4,10 +4,10 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function ChooseImg({ whyChooseUs }: any) {
- useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration
-      once: false, 
+      once: false,
       mirror: true,
     });
 
@@ -20,10 +20,7 @@ export default function ChooseImg({ whyChooseUs }: any) {
     };
   }, []);
   return (
-    <div
-      data-aos="fade-right"
-      className="flex justify-center md:justify-start"
-    >
+    <div data-aos="fade-right" className="flex justify-center md:justify-start">
       <div className="relative w-80 h-80 md:w-96 md:h-96 2xl:w-[500px] 2xl:h-[500px]">
         <div
           className="absolute inset-0 rounded-full"
@@ -36,6 +33,7 @@ export default function ChooseImg({ whyChooseUs }: any) {
             alt={whyChooseUs.heading}
             width={900}
             height={900}
+            draggable={false}
             className="rounded-full w-full h-full object-cover"
           />
         </div>
