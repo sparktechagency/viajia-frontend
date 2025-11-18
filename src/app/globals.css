@@ -13,6 +13,9 @@
   .section-title {
     @apply text-3xl lg:text-5xl font-bold mb-6 text-[#F1F1F1];
   }
+  .container {
+    @apply container mx-auto px-4 md:px-5;
+  }
 }
 
 @theme inline {

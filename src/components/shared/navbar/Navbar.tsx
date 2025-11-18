@@ -93,7 +93,7 @@ export default function Navbar({ t }: any) {
           {/* Logo */}
           <Link href={'/'} className="shrink-0 -mt-2">
             <Image
-              src="/Logo.svg"
+              src="/Logo.png"
               alt="VIAJIA Logo"
               width={120}
               height={40}
