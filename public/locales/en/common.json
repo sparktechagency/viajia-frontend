@@ -78,7 +78,7 @@
     "part2": "Questions"
   },
   "travelCTA": {
-     "badge": "Start your AI-powered trip now",
+    "badge": "Start your AI-powered trip now",
     "heading": "Ready to Transform Your Travel?",
     "subheading": "Join thousands of travelers who've discovered a smarter, more inspiring way to explore the world with Valeria.",
     "button1": "Talk to Valeria Now",
@@ -98,5 +98,51 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Use"
     }
-  }
+  },
+  "lockerBanner": {
+    "title": "Travel Light, Enjoy More",
+    "subtitle": "Secure luggage storage in the heart of Oviedo.",
+    "description": "Viajia Lockers collaborates with Le CBD Boutique, and our automatic lockers are located inside this trusted store at C. Uría, 76, ensuring safety and convenience for your suitcases.",
+    "button": "Book Now"
+  },
+  "whatIsViajia": {
+  "title": "What is Viajia Lockers?",
+  "description": "Viajia Lockers is an intelligent and secure luggage storage service that allows travelers to enjoy Oviedo without carrying weight. The lockers are located in La CBID Boutique, monitored, and available during their opening hours."
+},
+"pricing": {
+  "title": "Sizes and Prices",
+  "day": "/day",
+  "items": [
+    {
+      "title": "Small (S)",
+      "description": "For carry-on suitcases"
+    },
+    {
+      "title": "Large (L)",
+      "description": "For medium suitcases"
+    },
+    {
+      "title": "Extra Large (XL)",
+      "description": "For large suitcases or multiple bags"
+    }
+  ]
+},
+"hoursSupport": {
+  "hoursTitle": "Hours",
+  "supportTitle": "Technical Support",
+  "satLabel": "Technical support (SAT):",
+  "emailLabel": "Email Us:",
+  "supportHoursLabel": "Hours:",
+  "supportHoursValue": "08:00-20:00 (every day)",
+
+  "hoursListNote": "(According to La CBD Boutique)",
+  "mondayFriday": "Monday - Friday:",
+  "saturday": "Saturday:",
+  "sundayHolidays": "Sunday & Holidays:",
+  "closed": "Closed",
+
+  "mfTime": "09:00-14:00 / 16:00-20:30",
+  "satTime": "11:00-14:00 / 16:00-20:30"
+}
+
 }

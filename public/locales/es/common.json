@@ -97,5 +97,50 @@
       "privacy": "Política de privacidad",
       "terms": "Términos de uso"
     }
+  },
+  "lockerBanner": {
+    "title": "Viaja Ligero, Disfruta Más",
+    "subtitle": "Consigna segura en el corazón de Oviedo.",
+    "description": "Viajia Lockers colabora con Le CBD Boutique, y nuestras taquillas automáticas están ubicadas dentro de esta tienda de confianza en C. Uría, 76, garantizando seguridad y comodidad para tus maletas.",
+    "button": "Reservar Ahora"
+  },
+  "whatIsViajia": {
+    "title": "¿Qué es Viajia Lockers?",
+    "description": "Viajia Lockers es un servicio inteligente y seguro de consigna que permite a los viajeros disfrutar de Oviedo sin cargar peso. Las taquillas están ubicadas en La CBID Boutique, están vigiladas y disponibles durante su horario de apertura."
+  },
+  "pricing": {
+    "title": "Tamaños y Precios",
+    "day": "/día",
+    "items": [
+      {
+        "title": "Pequeño (S)",
+        "description": "Para maletas de mano"
+      },
+      {
+        "title": "Grande (L)",
+        "description": "Para maletas medianas"
+      },
+      {
+        "title": "Extra Grande (XL)",
+        "description": "Para maletas grandes o varias bolsas"
+      }
+    ]
+  },
+  "hoursSupport": {
+    "hoursTitle": "Horario",
+    "supportTitle": "Soporte Técnico",
+    "satLabel": "Soporte técnico (SAT):",
+    "emailLabel": "Contáctanos por Email:",
+    "supportHoursLabel": "Horario:",
+    "supportHoursValue": "08:00-20:00 (todos los días)",
+
+    "hoursListNote": "(Según La CBD Boutique)",
+    "mondayFriday": "Lunes - Viernes:",
+    "saturday": "Sábado:",
+    "sundayHolidays": "Domingo y Festivos:",
+    "closed": "Cerrado",
+
+    "mfTime": "09:00-14:00 / 16:00-20:30",
+    "satTime": "11:00-14:00 / 16:00-20:30"
   }
 }
