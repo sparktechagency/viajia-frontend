@@ -57,6 +57,7 @@ const CTAButtons = ({ translateData }: any) => {
         <Button
           style={{ boxShadow: "0 6px 20px rgba(255, 203, 32, 0.5)" }}
           data-aos="fade-up"
+          data-aos-delay={200}
           size="large"
           className="bg-[#FFCB20]! hover:bg-yellow-500! border-none! text-slate-900! font-semibold!  h-12! rounded-xl w-full! md:w-[220px]!"
         >
@@ -67,6 +68,7 @@ const CTAButtons = ({ translateData }: any) => {
           size="large"
           type="default"
           data-aos="fade-up"
+          data-aos-delay={250}
           className="border! border-primary! text-primary! hover:bg-cyan-400/10 font-semibold! h-12! rounded-xl bg-[#00BCD126]! w-full! md:w-[220px]!"
         >
           {translateData?.cta.createItinerary}

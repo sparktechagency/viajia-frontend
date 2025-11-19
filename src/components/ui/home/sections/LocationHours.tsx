@@ -16,8 +16,8 @@ const markerIcon = L.icon({
 
 export default function LocationHours({ t, locationHeading }: any) {
   // console.log(t);
-  const lat = 43.36603;
-  const lng = -5.8541;
+  const lat = 43.36605;
+  const lng = -5.85415;
 
   return (
     <section className="py-16 lg:py-20  text-[#F1F1F1]">
