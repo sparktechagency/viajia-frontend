@@ -1,4 +1,4 @@
-name: Deploy Landing page viajia.es
+name: Deploy Landing page viajia.e
 
 on:
   push:
