@@ -14,7 +14,7 @@ const Spinner = () => {
             alt="logo"
             width={140}
             height={40}
-            className="h-10 w-full abc"
+            className="h-10 w-full "
           />
         </div>
       </div>
