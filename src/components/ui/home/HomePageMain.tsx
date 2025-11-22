@@ -14,7 +14,7 @@ export default async function HomePageMain() {
   const location: any = await getTranslate("hoursSupport");
   const locationHeading: any = await getTranslate("locationSection");
 
-  const items = faqData.map((item: any, index: number) => ({
+  const items = faqData?.map((item: any, index: number) => ({
     key: String(index + 1),
     label: item.question,
     children: <p>{item.answer}</p>,
