@@ -1,9 +1,9 @@
-name: Deploy Landing page viajia.e
+name: Deploy Landing Page viajia.e
 
 on:
   push:
     branches:
-      - main  # deploy when pushing to main
+      - main
 
 jobs:
   deploy:
@@ -22,11 +22,10 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          ssh ${{ secrets.USER }}@${{ secrets.HOST }} << 'EOF'
-          cd ${{ secrets.APP_DIR }}
-          git pull origin main
-          npm install
-          npm run build
-          pm2 restart landing-page
-          pm2 reload landing-page
-          EOF
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} "
+            cd ${{ secrets.APP_DIR }}
+            git pull origin main
+            npm install
+            npm run build
+            pm2 restart landing-page || pm2 start npm --name landing-page -- run start
+          "
