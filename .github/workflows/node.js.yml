@@ -27,5 +27,6 @@ jobs:
             git pull origin main
             npm install
             npm run build
+            npm i -g pm2
             pm2 restart landing-page || pm2 start npm --name landing-page -- run start
           "
