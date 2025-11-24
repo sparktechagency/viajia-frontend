@@ -1,11 +1,9 @@
-const HoursList = ({ t, isHome = false }: any) => {
+const HoursList = ({ t }: any) => {
   // console.log(t);
   // const t: any = await getTranslate("hoursSupport");
   return (
     <>
-      {!isHome && (
-        <p className="text-[#ABABAB] text-sm mb-2">{t?.hoursListNote}</p>
-      )}
+      <p className="text-[#ABABAB] text-sm mb-2">{t?.hoursListNote}</p>
 
       <div className="space-y-4 text-[#ABABAB] mt-6 ">
         <div className="flex justify-between ">

@@ -2,9 +2,13 @@ import React from "react";
 import LockerBanner from "./sections/LockerBanner";
 import PricingSection from "./sections/sizes-section/Pricing/PricingSection";
 import WhatIsViajia from "./sections/sizes-section/WhatIsViajia";
-import HoursSupport from "./sections/sizes-section/Info/HoursSupport";
+import { getTranslate } from "@/lib/helpers/getTranslate";
+import LocationHours from "../home/sections/LocationHours";
 
-export default function LockersPage() {
+export default async function LockersPage() {
+  const location: any = await getTranslate("hoursSupport");
+  const locationHeading: any = await getTranslate("locationSection");
+
   return (
     <div className="mt-24">
       <section className="mx-4 lg:mx-5">
@@ -12,7 +16,8 @@ export default function LockersPage() {
       </section>
       <WhatIsViajia />
       <PricingSection />
-      <HoursSupport />
+      <LocationHours t={location} locationHeading={locationHeading} />
+      {/* <HoursSupport /> */}
     </div>
   );
 }

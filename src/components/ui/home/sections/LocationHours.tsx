@@ -20,7 +20,7 @@ export default function LocationHours({ t, locationHeading }: any) {
   const lng = -5.85415;
 
   return (
-    <section className="py-16 lg:py-20  text-[#F1F1F1]">
+    <section className="py-16 lg:py-20 lg:pb-40  text-[#F1F1F1]">
       {/* Title */}
       <div className="text-center mb-10">
         <h2 className="text-2xl 2xl:text-[28px] font-semibold">
@@ -53,9 +53,9 @@ export default function LocationHours({ t, locationHeading }: any) {
             title={t?.hoursTitle}
             icon={<Clock className="w-5 h-5" />}
             delay={100}
-            isHome={true}
+            isHome={false}
           >
-            <HoursList t={t} isHome={true} />
+            <HoursList t={t} />
           </InfoCard>
           <div
             data-aos="fade-up"
@@ -81,6 +81,17 @@ export default function LocationHours({ t, locationHeading }: any) {
                 <p className="text-[#ABABAB]  mb-1">{t.emailLabel}</p>
                 <p className="text-primary flex items-center gap-2 text-sm">
                   contacto@viajia.es
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className=" bg-[#F66E10]/30 p-3 rounded-full">
+                <Clock className="w-4 h-4 text-[#F66E10]" />
+              </div>
+              <div>
+                <p className="text-[#ABABAB]  mb-1">{t.supportHoursLabel}</p>
+                <p className="text-primary flex items-center gap-2 text-sm">
+                  {t.supportHoursValue}
                 </p>
               </div>
             </div>

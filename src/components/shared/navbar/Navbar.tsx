@@ -54,15 +54,15 @@ export default function Navbar({ t }: any) {
   useEffect(() => {
     const handleScroll = () => {
       const bannerHeight = document.getElementById("banner")?.offsetHeight || 0;
-      if (window.scrollY > bannerHeight - 80) {
+      if (globalThis.scrollY > bannerHeight - 80) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    globalThis.addEventListener("scroll", handleScroll);
+    return () => globalThis.removeEventListener("scroll", handleScroll);
   }, [cookieLang]);
 
   // handle language change

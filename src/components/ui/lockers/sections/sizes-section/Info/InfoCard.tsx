@@ -19,7 +19,7 @@ const InfoCard: FC<InfoCardProps> = ({
     <div
       data-aos="fade-up"
       data-aos-delay={delay}
-      className={`bg-[#1C1C1E]  border border-slate-800/50 rounded-lg p-8 ${
+      className={`bg-[#1C1C1E]  border border-slate-800/50 rounded-lg py-8 ${
         isHome ? "h-fit" : "h-full"
       } `}
     >

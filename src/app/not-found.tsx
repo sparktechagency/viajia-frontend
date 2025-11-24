@@ -5,7 +5,7 @@ import { FiArrowLeft, FiHome, FiWifi, FiAlertTriangle } from "react-icons/fi";
 
 const NotFound: React.FC = () => {
   const handleGoBack = () => {
-    window.history.back();
+    globalThis.history.back();
   };
 
   return (
