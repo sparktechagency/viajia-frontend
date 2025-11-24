@@ -147,5 +147,19 @@
   "locationSection": {
     "title": "Location & Hours",
     "address": "Find us at Le CBD Boutique, C/ Uría, 76, 33003 Oviedo, Asturias"
+  },
+  "aboutViajia": {
+    "title": "About VIAJIA",
+    "content": "<h2 class='text-2xl font-semibold mb-4'>About VIAJIA</h2><p>VIAJIA is an AI-powered travel platform designed to help you create fully personalized and real-time travel itineraries in seconds. Our mission is to make trip planning simple, fast, and tailored to each traveler’s needs, preferences, and budget.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>Our vision</h3><p>To become the leading global travel-planning solution powered by intelligent automation and personalization.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>Our commitment</h3><p>Deliver transparent, reliable technology and truly traveler-centric experiences.</p>"
+  },
+
+  "terms": {
+    "title": "Terms and Conditions — VIAJIA",
+    "content": "<h2 class='text-2xl font-semibold mb-4'>Terms and Conditions of Use — VIAJIA</h2><p>By accessing and using this website (viajia.es), you agree to the following terms:</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>1. Object of the service</h3><p>VIAJIA provides travel information, recommendations, and itinerary generation through AI. Some services may redirect to external platforms (flights, hotels, activities...)</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>2. Liability limitation</h3><p>VIAJIA does not guarantee availability, prices, or accuracy of services offered by external providers (Booking, Skyscanner, etc.). Any reservation is made directly with them.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>3. Permitted use</h3><p>The user agrees to use the website and/or app legally and respectfully.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>4. Intellectual property</h3><p>All VIAJIA content, brand, logo, and graphic elements are legally protected and cannot be reproduced without authorization.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>5. Modifications</h3><p>VIAJIA may update these terms when necessary. Relevant changes will be communicated to users.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>6. Jurisdiction</h3><p>These terms are governed by Spanish law.</p>"
+  },
+
+  "privacy": {
+    "title": "Privacy Policy — VIAJIA",
+    "content": "<h2 class='text-2xl font-semibold mb-4'>Privacy Policy — VIAJIA</h2><h3 class='text-xl font-semibold mt-6 mb-2'>1. Data controller</h3><p>Nicolás Rocha López (VIAJIA) – contacto@viajia.es</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>2. Data we collect</h3><ul class='list-disc ml-6'><li>Name & email (only if provided)</li><li>Travel preferences entered by the user</li><li>Anonymous technical data (cookies, website usage)</li></ul><br /><h3 class='text-xl font-semibold mt-6 mb-2'>3. Purpose of processing</h3><ul class='list-disc ml-6'><li>Generate personalized itineraries</li><li>Improve user experience</li><li>Basic communication (when requested)</li></ul><br /><h3 class='text-xl font-semibold mt-6 mb-2'>4. No data selling</h3><p>VIAJIA does not sell or share user data except when required to provide the service.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>5. User rights</h3><p>Access, delete, rectify, portability, and objection. Contact: contacto@viajia.es</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>6. Security</h3><p>We use technical measures to protect your personal data.</p><br /><h3 class='text-xl font-semibold mt-6 mb-2'>7. Cookies</h3><p>We use technical and analytics cookies. Users may manage them through their browser.</p>"
   }
 }
