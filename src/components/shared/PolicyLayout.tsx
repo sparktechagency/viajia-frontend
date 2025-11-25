@@ -7,7 +7,7 @@ export default function PolicyLayout({ content, title }: policyPageProps) {
     <div className="min-h-[calc(100vh-68px)] ">
       <div className="container mx-auto p-4  py-12 lg:py-20">
         {/* Header */}
-        <div className="mb-8 mt-8 ">
+        <div className=" mt-8 ">
           <h1 className="text-2xl 2xl:text-3xl py-6 rounded-lg font-semibold text-[#F1F1F1] mb-2 bg-transparent">
             {title}
           </h1>

@@ -18,11 +18,11 @@ export default async function Footer() {
       //   backgroundImage: "url('/assets/footer/footer-bg.svg')",
       //   backgroundRepeat: "no-repeat",
       // }}
-      className="bg-[#00BCD1] text-black pt-12 px-6 md:px-16 font-sans"
+      className="bg-[#00BCD1] text-black pt-12  md:px-16 font-sans"
     >
       <div className="container mx-auto flex flex-col gap-10">
         {/* Top box with glass effect */}
-        <div className="backdrop-blur-md bg-white/10 border border-[#00BCD133] rounded-lg p-6 md:p-10 shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
+        <div className="backdrop-blur-md bg-white/10 border border-[#00BCD133] rounded-lg px-4 py-6 md:p-10 shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
           <p className="text-lg md:text-xl font-medium text-[#1A1B1B] text-center md:text-left">
             {translateData.description}
           </p>
@@ -31,7 +31,7 @@ export default async function Footer() {
         {/* Bottom section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-white/30 pt-6">
           {/* Left links */}
-          <div className="flex flex-wrap gap-4 lg:gap-6 text-xs lg:text-sm text-black/80 mb-4 md:mb-0">
+          <div className="flex flex-wrap gap-4 lg:gap-6 text-xs lg:text-sm text-black/80 mb-4 md:mb-0 items-center justify-center lg:justify-start">
             {links.map((link) => (
               <Link
                 key={link.href}
